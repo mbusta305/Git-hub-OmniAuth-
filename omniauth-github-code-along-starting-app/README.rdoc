@@ -1,0 +1,8 @@
+== README
+
+Please open your terminal and head over your own work folder or location.
+
+- ```git clone git@github.com:wyncode/student-resources.git   ```
+
+- ``` cd /student-resources/omniauth_authentication_code_along_with_rspec/omniauth-github-code-along-starting-app```
+ - ``` atom . ```

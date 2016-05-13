@@ -1,0 +1,5 @@
+# config/initializers/omniauth.rb
+Rails.application.config.middleware.use OmniAuth::Builder do
+  provider :github, ENV['CLIENT_ID'], ENV['CLIENT_SECRET'], scope: "user:email"
+  provider :twitter, ENV['API_KEY'], ['API_SECRET']
+end
